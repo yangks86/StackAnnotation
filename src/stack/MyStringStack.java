@@ -20,7 +20,7 @@ import java.util.Vector;
 public class MyStringStack {
     private Vector<String> v = new Vector<String> ();
     public void push (String newElement) {
-        ifs (newElement != null) v.add (newElement);
+        if (newElement != null) v.add (newElement);
     }
 
 /**
